@@ -1,0 +1,273 @@
+.announcement {
+  background-color: #f3f3f5;
+  padding: 1.2rem 0 1.1rem;
+  display: flex;
+}
+.announcement__text {
+  width: 35rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.announcement__text p {
+  font-family: "Gilroy-Regular";
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+
+  color: var(--dark);
+}
+
+.announcement__cta {
+  font-family: "Gilroy-Regular";
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+
+  color: var(--dark);
+}
+.announcement__text .holiday {
+  color: #977d70;
+}
+.announcement__close {
+  margin-right: 1.2rem;
+  cursor: pointer;
+}
+.nav-wrapper {
+  background-color: #2c2c2e;
+}
+.nav {
+  width: 96rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1.2rem 0;
+}
+.nav__logo {
+  margin-right: 5.8rem;
+}
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  margin-right: 7.3rem;
+}
+.nav__cta {
+  width: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bag {
+  cursor: pointer;
+}
+.nav__link {
+  font-family: "Gilroy-Regular";
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--light);
+}
+
+/* header hero *********************/
+
+.header__hero {
+  background-color: var(--dark);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: calc(100vh - 88px);
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 11rem 0;
+  gap: 6% 0;
+}
+
+.hero__title {
+  font-family: "Gilroy-Regular";
+  font-size: 5.6rem;
+  line-height: 142.83%;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 8rem;
+  margin-top: 3.2rem;
+}
+.hero__cta {
+  background-color: var(--light);
+  border-radius: 4rem;
+  width: 26.5rem;
+  height: 6.6rem;
+
+  font-family: "Gilroy-Bold";
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--dark);
+}
+.hero__img img {
+  width: 80%;
+}
+.hero__cta--mob {
+  display: none;
+}
+
+.burger {
+  display: none;
+}
+
+/* burger */
+
+.modal {
+    display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark);
+  top: 0;
+  left: 0;
+  padding: 15rem 0 0;
+  
+}
+.db {
+    display: block;
+
+
+}
+.close-modal {
+    color: var(--light);
+    font-size: 2.4rem;
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    cursor: pointer;
+}
+.modal__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal__item {
+  margin-bottom: 2rem;
+}
+.modal__item:hover {
+    transform: scale(1.1);
+}
+.modal__link{
+  font-family: "Gilroy-Regular";
+  font-size: 2rem;
+  line-height: 142.83%;
+  text-align: center;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* media */
+
+@media (max-width: 1000px) {
+  .hero__title {
+    font-size: 3.6rem;
+  }
+  .nav__item {
+    margin-right: 5.3rem;
+  }
+  .nav {
+    width: 84rem;
+  }
+}
+@media (max-width: 850px) {
+  .hero__title {
+    font-size: 3rem;
+  }
+  .nav__cta {
+    width: 7rem;
+  }
+  .nav__item {
+    margin-right: 2.5rem;
+  }
+  .nav {
+    width: 70rem;
+  }
+  .nav__logo {
+    margin-right: 2.8rem;
+  }
+  .hero__cta {
+    width: 24.5rem;
+    height: 4.6rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .hero__grid {
+    grid-template-columns: 100%;
+    padding: 8rem 0 3rem 0;
+    gap: 0;
+  }
+  .header__hero {
+    height: auto;
+  }
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__title {
+    text-align: center;
+    font-size: 2.8rem;
+    line-height: 142.83%;
+    margin-top: 8rem;
+    margin-bottom: 5.3rem;
+  }
+  .hero__cta {
+    display: none;
+  }
+  .hero__cta--mob {
+    display: block;
+    width: 100%;
+    height: 6.6rem;
+    margin-top: 7rem;
+  }
+  .hero__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .announcement__text {
+    width: 28.4rem;
+  }
+  .announcement__text p {
+    font-size: 1.2rem;
+  }
+  .announcement__cta {
+    font-size: 1.2rem;
+  }
+  .announcement__text img {
+    display: none;
+  }
+
+  .nav__list {
+    display: none;
+  }
+  .nav {
+    width: 90%;
+  }
+  .nav__cta {
+    width: 4.5rem;
+  }
+  .nav__cta img {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__logo {
+    margin: 0;
+    margin-left: 3rem;
+  }
+}

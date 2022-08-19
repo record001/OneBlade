@@ -1,0 +1,91 @@
+/* montserrat-300 - latin */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/montserrat-v25-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/montserrat-v25-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/montserrat-v25-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/montserrat-v25-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/montserrat-v25-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/montserrat-v25-latin-300.svg#Montserrat') format('svg'); /* Legacy iOS */
+         
+  }
+  
+  /* montserrat-regular - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-500 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/montserrat-v25-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/montserrat-v25-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/montserrat-v25-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/montserrat-v25-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/montserrat-v25-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/montserrat-v25-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+
+  /* karla-regular - latin */
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/karla-v23-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/karla-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/karla-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/karla-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/karla-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/karla-v23-latin-regular.svg#Karla') format('svg'); /* Legacy iOS */
+  }
+  /* gilroy-regular - latin */
+@font-face {
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/gilroy-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/gilroy-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/gilroy-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/gilroy-regular.svg#Karla') format('svg'); /* Legacy iOS */
+  }
+
+  @font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./fonts/Gilroy-Bold.eot');
+    src: local('./fonts/Gilroy Bold'), local('Gilroy-Bold'),
+        url('./fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('./fonts/Gilroy-Bold.woff') format('woff'),
+        url('./fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('./fonts/Karla-Regular.eot');
+    src: local('./fonts/Karla'), local('Karla-Regular'),
+        url('./fonts/Karla-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Karla-Regular.woff2') format('woff2'),
+        url('./fonts/Karla-Regular.woff') format('woff'),
+        url('./fonts/Karla-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,130 @@
+.shaving {
+  background-color: #1c1c1e;
+  padding: 3rem 0;
+  position: relative;
+}
+.shaving--resor {
+    background-color: #2C2C2E;
+
+}
+.shaving--resor-box {
+    background-color: #2C2C2E;
+}
+.shaving__content {
+  position: absolute;
+  left: 0;
+  top: 12.7rem;
+  width: 64.4rem;
+  height: 60.5rem;
+  background-color: var(--light);
+  padding: 8.6rem 10.3rem 0 8.1rem;
+}
+.resor__content {
+    position: absolute;
+    right: 0;
+    top: 12.7rem;
+    width: 64.4rem;
+    height: 60.5rem;
+    background-color: var(--light);
+    padding: 8.6rem 10.3rem 0 8.1rem;
+}
+.shaving__content h2, .resor__content h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 3.2rem;
+  line-height: 4rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--dark);
+  margin-bottom: 2.4rem;
+}
+.shaving__content p, .resor__content p {
+  font-family: "Gilroy-Regular";
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #404042;
+  margin-bottom: 4rem;
+}
+
+.shaving__cta {
+    cursor: pointer;
+  width: 26.5rem;
+  height: 6.6rem;
+  background-color: #111111;
+  border-radius: 4rem;
+
+  font-family: "Gilroy-Bold";
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--light);
+}
+.shaving__cta--mob {
+    display: none;
+}
+.shaving__img {
+  width: 93rem;
+  height: 80rem;
+  margin-left: auto;
+  background-image: url("../../images/home/shaving-man.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.resor__img {
+    margin-right: auto;
+    margin-left: 0;
+    background-image: url("../../images/home/resor_right.jpg");
+  
+}
+.resor-box__img {
+    background-image: url("../../images/home/box-resor.jpg");
+}
+
+
+/* media */ 
+ @media(max-width:600px) {
+    .shaving {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        background-color: var(--light);
+    }
+    .shaving__content {
+        position: unset;
+        width: 100%;
+        height: 23rem;
+        padding: 0;
+        margin-top: 5rem;
+        padding: 0 1.6rem 2.3rem;
+
+
+    }
+    .resor__content {
+        width: 100%;
+        height: 35rem;
+        position: unset;
+        padding: 1rem 1.6rem 2.3rem;
+
+    }
+
+    .shaving__cta {
+        display: none;
+    }
+    .shaving__cta--mob {
+        width: 90%;
+        margin: 1rem auto;
+        display: block;
+    }
+    .shaving__img {
+        width: 100%;
+        height: 39.2rem;
+    }
+
+    .shaving__content h2 {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+       
+        margin-bottom: 1.6rem;
+    }
+ }

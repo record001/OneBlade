@@ -1,0 +1,19 @@
+@import "./fonts.css";
+@import "./resets.css";
+@import "./header.css";
+@import "./cart.css";
+@import "./footer.css";
+@import "./home/brand.css";
+@import "./home/shaving.css";
+@import "./home/iron-resor.css";
+@import "./home/product-list.css";
+@import "./home/trial.css";
+
+.video {
+    background-color: #1C1C1E;
+    padding: 3rem 0;
+}
+.video video {
+   width: 100%;
+    
+}
