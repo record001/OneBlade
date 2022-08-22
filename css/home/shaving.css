@@ -13,8 +13,10 @@
 .shaving__content {
   position: absolute;
   left: 0;
-  top: 12.7rem;
-  width: 64.4rem;
+  /* top: 12.7rem; */
+  top: 14%;
+  width: 45%;
+  /* width: 64.4rem; */
   height: 60.5rem;
   background-color: var(--light);
   padding: 8.6rem 10.3rem 0 8.1rem;
@@ -22,8 +24,10 @@
 .resor__content {
     position: absolute;
     right: 0;
-    top: 12.7rem;
-    width: 64.4rem;
+    /* top: 12.7rem; */
+    top: 14%;
+    /* width: 64.4rem; */
+    width: 45%;
     height: 60.5rem;
     background-color: var(--light);
     padding: 8.6rem 10.3rem 0 8.1rem;
@@ -63,7 +67,8 @@
     display: none;
 }
 .shaving__img {
-  width: 93rem;
+  /* width: 93rem; */
+  width: 63%;
   height: 80rem;
   margin-left: auto;
   background-image: url("../../images/home/shaving-man.jpg");

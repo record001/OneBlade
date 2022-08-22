@@ -21,13 +21,13 @@ close_modal.addEventListener("click" , ()=> {
 
 // select options
 
-let select_btn_array = document.querySelectorAll(".selections__img-box")
+// let select_btn_array = document.querySelectorAll(".selections__img-box")
 
-select_btn_array.forEach(btn => {
-    btn.addEventListener("click", e=> {
-        e.target.classList.toggle("border")
-    })
-})
+// select_btn_array.forEach(btn => {
+//     btn.addEventListener("click", e=> {
+//         e.target.classList.toggle("border")
+//     })
+// })
 
 
 // toggle cart page by clicking bag img
@@ -62,24 +62,20 @@ for (let i = 0; i < 3; i++) {
               />
 
               <div class="selections">
-                <div class="selections__img-box">
-                    <img 
-                    src="./images/home/selected-color-brown.svg"
-                    alt="selected-color-brown"
-                  />
-                </div>
-                <div class="selections__img-box">
-                    <img
-                    src="./images/home/selected-color-x.svg"
-                    alt="selected-color-x"
-                  />
-                </div>
-                <div class="selections__img-box">
-                    <img
-                    src="./images/home/selected-color-black.svg"
-                    alt="selected-color-black"
-                  />
-                </div>
+              <ul class="color-list">
+              <li class="color__item">
+                  <input class="color-input" type="radio" id="one" name="check_one">
+                  <label class="color" id="onee"  for="one"></label>
+              </li>
+              <li class="color__item">
+                  <input class="color-input" type="radio" id="two" name="check_one">
+                  <label class="color" id="twoo"  for="two"></label>
+              </li>
+              <li class="color__item">
+                  <input class="color-input" type="radio" id="three" name="check_one">
+                  <label class="color" id="threee"  for="three"></label>
+              </li>
+           </ul>
                
              
                
@@ -110,24 +106,20 @@ for (let i = 0; i < 3; i++) {
               />
 
               <div class="selections">
-                <div class="selections__img-box">
-                    <img 
-                    src="./images/home/selected-color-brown.svg"
-                    alt="selected-color-brown"
-                  />
-                </div>
-                <div class="selections__img-box">
-                    <img
-                    src="./images/home/selected-color-x.svg"
-                    alt="selected-color-x"
-                  />
-                </div>
-                <div class="selections__img-box">
-                    <img
-                    src="./images/home/selected-color-black.svg"
-                    alt="selected-color-black"
-                  />
-                </div>
+              <ul class="color-list">
+              <li class="color__item">
+                  <input class="color-input" type="radio" id="one" name="check_one">
+                  <label class="color" id="onee"  for="one"></label>
+              </li>
+              <li class="color__item">
+                  <input class="color-input" type="radio" id="two" name="check_one">
+                  <label class="color" id="twoo"  for="two"></label>
+              </li>
+              <li class="color__item">
+                  <input class="color-input" type="radio" id="three" name="check_one">
+                  <label class="color" id="threee"  for="three"></label>
+              </li>
+          </ul>
                
              
                
@@ -157,24 +149,20 @@ for (let i = 0; i < 6; i++) {
               />
 
               <div class="selections">
-                <div class="selections__img-box">
-                    <img 
-                    src="./images/home/selected-color-brown.svg"
-                    alt="selected-color-brown"
-                  />
-                </div>
-                <div class="selections__img-box">
-                    <img
-                    src="./images/home/selected-color-x.svg"
-                    alt="selected-color-x"
-                  />
-                </div>
-                <div class="selections__img-box">
-                    <img
-                    src="./images/home/selected-color-black.svg"
-                    alt="selected-color-black"
-                  />
-                </div>
+              <ul class="color-list">
+              <li class="color__item">
+                  <input class="color-input" type="radio" id="one" name="check_one">
+                  <label class="color" id="onee"  for="one"></label>
+              </li>
+              <li class="color__item">
+                  <input class="color-input" type="radio" id="two" name="check_one">
+                  <label class="color" id="twoo"  for="two"></label>
+              </li>
+              <li class="color__item">
+                  <input class="color-input" type="radio" id="three" name="check_one">
+                  <label class="color" id="threee"  for="three"></label>
+              </li>
+          </ul>
                
              
                
