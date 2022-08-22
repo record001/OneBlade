@@ -8,6 +8,7 @@
   padding: 1rem 2rem;
   color: var(--dark);
   transition: 1000ms ;
+  z-index: 999;
 
 }
 .on {
